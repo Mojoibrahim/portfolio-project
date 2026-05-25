@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <link rel="icon" type="image/x-icon" href="C:/Users/user/Desktop/MOJO/AReL Project/K.H.S.png">
+
+    </head>
+    <body>
+        <a href="homePage.html">Home</a><br>
+        <a href="aboutPage.html">About Me</a><br><br>
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required></input><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required></input><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <button>Submit</button>
+        </form><br><br>
+        <hr>
+
+        <h2>Registeration Form</h2>
+        <form>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName" required></input><br><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName" required></input><br><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone" required></input><br><br>
+            <label for="gender">Gender:</label><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required></input><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required></input><br><br>
+            <label for="date">Date of Birth:</label><br>
+            <input type="date" id="date" name="date" required></input><br><br>
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">Sudan</option>
+                <option value="usa">Uganda</option>
+                <option value="canada">Kenya</option>
+                <option value="uk">Eritrea</option>
+                <option value="australia">Somalia</option>
+            </select><br><br>
+            <label for="image">Upload your Image:</label><br>
+            <input type="file" id="image" name="image" accept="image/*" required><br><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" min="0" required><br><br>
+            <label for="hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="hobbies" name="hobbies" value="reading"><label for="hobbies">Reading</label><br>
+            <input type="checkbox" id="hobbies" name="hobbies" value="swimming"><label for="hobbies">Swimming</label><br>
+            <input type="checkbox" id="hobbies" name="hobbies" value="cooking" ><label for="hobbies">Cooking</label><br>
+            <input type="checkbox" id="hobbies" name="hobbies" value="traveling"><label for="hobbies">Traveling</label><br><br>
+            <lable>Additional Informations</lable><br>
+            <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea><br><br>
+            <button>Register</button>
+        </form>
+    </body>
+</html>
